@@ -1,7 +1,7 @@
 # Advent-of-Code-2022
 ## Day1
 
-simmple, but for day1_2 we can still discuss about the complexity.
+simple, but for day1_2 we can still discuss about the complexity.
 
 method 1: we can firstly sort the list sum, then sum up the three first value, in theory we can have a complexity nlogn,
 
