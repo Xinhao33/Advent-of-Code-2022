@@ -11,4 +11,4 @@ In this exercise, we have a list sum which contains 266 elements, log266 ==7.754
 
 ## Day2
 
-try to establish 3 dictionary to simplify the complexity (first try with dictionary)
+try to establish 3 dictionaries to simplify the complexity (first try with dictionary)
