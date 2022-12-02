@@ -17,6 +17,7 @@ const sum = (input: any[]) => {
 };
 
 const day1_1 = (input: any[]) => {
+  //console.log(input.length);
   let ELF: elves = { sum: 0, index: 0 };
   for (let i = 0; i < input.length; i++) {
     const listint = conv(input[i]);
