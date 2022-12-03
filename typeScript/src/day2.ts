@@ -70,7 +70,7 @@ const day2_2 = (input: any[]) => {
   return sum;
 };
 
-["inputDay2_1.txt"].forEach((f) => {
+["./data/inputDay2_1.txt"].forEach((f) => {
   const input = fs.readFileSync(`${f}`, "utf-8").trim().split("\n").map(String);
   console.log(`${f} - day2_1: ${score_sum(input, score1)}`);
   console.log(`${f} - day2_2: ${day2_2(input)}`);

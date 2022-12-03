@@ -20,10 +20,8 @@ const seperate = (input: any[]) => {
     out.push([first, second]);
     first = [];
     second = [];
-    //const [first,seconde]=inp.reduce((result,element)=>{
-    //result[inp.indexOf(element)<inp.length/2? 0:1].push(element)
   }
-  //console.log(out);
+
   return out;
 };
 
@@ -44,11 +42,10 @@ const seperate2 = (input: any[]) => {
     let first = chaine_to_list(input[3 * i]);
     let second = chaine_to_list(input[3 * i + 1]);
     let third = chaine_to_list(input[3 * i + 2]);
-    //console.log(first);
-    //let group = [first, second, third];
+
     out.push([first, second, third]);
   }
-  console.log(out[0]);
+
   return out;
 };
 
@@ -67,7 +64,6 @@ const find = (input: any[]) => {
 };
 
 const find_three_list = (input: any[]) => {
-  //console.log(input.length);
   let commun = [];
   for (let i = 0; i < input.length; i++) {
     let inter1_2 = input[i][0].filter((x: any) => input[i][1].includes(x));
@@ -75,7 +71,7 @@ const find_three_list = (input: any[]) => {
 
     commun.push(com);
   }
-  //console.log(commun.length);
+
   for (let i = 0; i < commun.length; i++) {
     commun[i] = commun[i][0];
   }
@@ -139,20 +135,14 @@ const score = (input: any[]) => {
     "Z",
   ];
   let sum = 0;
-  console.log(input);
   for (let i = 0; i < input.length; i++) {
     sum += score_list.indexOf(input[i]);
   }
   return sum;
 };
 
-["inputDay3_1.txt"].forEach((f) => {
+["./data/inputDay3_1.txt"].forEach((f) => {
   const input = fs.readFileSync(`${f}`, "utf-8").trim().split("\n").map(String);
-  //console.log(`${f} - day2_1: ${score(find(seperate(input)))}`);
-  console.log(`${f} - day2_2: ${score(find_three_list(seperate2(input)))}`);
-  //console.log(chaine_to_list(chaine_to_list(input)[0]));
-  //console.log(`${f} - day2_2: ${day2_2(input)}`);
-  //console.log(`${f} - day1_2: ${day1_2(input)}`);
-  //console.log(`${f} - day02: ${day02(input)}`);
-  //console.log(input);
+  console.log(`${f} - day3_1: ${score(find(seperate(input)))}`);
+  console.log(`${f} - day3_2: ${score(find_three_list(seperate2(input)))}`);
 });

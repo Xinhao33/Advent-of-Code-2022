@@ -52,7 +52,7 @@ const day1_2 = (input: any[]) => {
   //console.log(input);
 });
 
-["inputDay1_2.txt"].forEach((f) => {
+["./data/inputDay1_2.txt"].forEach((f) => {
   const input = fs
     .readFileSync(`${f}`, "utf-8")
     .trim()
