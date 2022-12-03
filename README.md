@@ -11,4 +11,14 @@ In this exercise, we have a list sum which contains 266 elements, log266 ==7.754
 
 ## Day2
 
-try to establish 3 dictionaries to simplify the complexity (first try with dictionary)
+try to establish 3 dictionaries to simplify the comptlexity (first try with dictionary)
+
+## Day3
+
+interesting method to find out commun elements in three lists:
+
+find commun elements in input[0], input[1], input[2] 
+
+inter1_2 = input[0].filter((x) => input[1].includes(x)); // intersection between input[0] and input[1]
+let com = inter1_2.filter((x) => input[2].includes(x)); // intersection between inter1_2 and input[2]
+
