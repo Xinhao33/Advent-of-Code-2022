@@ -16,7 +16,9 @@ try to establish 3 dictionaries to simplify the comptlexity (first try with dict
 ## Day3
 
 interesting method to find out commun elements in three lists:
-//find commun elements in input[0], input[1], input[2] 
- inter1_2 = input[0].filter((x) => input[1].includes(x)); // intersection between input[0] and input[1]
- let com = inter1_2.filter((x) => input[2].includes(x)); // intersection between inter1_2 and input[2]
+
+find commun elements in input[0], input[1], input[2] 
+
+inter1_2 = input[0].filter((x) => input[1].includes(x)); // intersection between input[0] and input[1]
+let com = inter1_2.filter((x) => input[2].includes(x)); // intersection between inter1_2 and input[2]
 
