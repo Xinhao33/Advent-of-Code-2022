@@ -143,6 +143,9 @@ const score = (input: any[]) => {
 
 ["./data/inputDay3_1.txt"].forEach((f) => {
   const input = fs.readFileSync(`${f}`, "utf-8").trim().split("\n").map(String);
+  let start = performance.now();
   console.log(`${f} - day3_1: ${score(find(seperate(input)))}`);
   console.log(`${f} - day3_2: ${score(find_three_list(seperate2(input)))}`);
+  let end = performance.now();
+  console.log((end - start).toFixed(2));
 });
