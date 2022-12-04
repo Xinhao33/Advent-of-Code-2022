@@ -22,3 +22,5 @@ find commun elements in input[0], input[1], input[2]
 inter1_2 = input[0].filter((x) => input[1].includes(x)); // intersection between input[0] and input[1]
 let com = inter1_2.filter((x) => input[2].includes(x)); // intersection between inter1_2 and input[2]
 
+## Day4
+function satisfy4_1 and satisfy4_2 are efficent, the part convert data with proper list(table) can be improved
