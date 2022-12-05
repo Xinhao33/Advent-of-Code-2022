@@ -24,3 +24,6 @@ let com = inter1_2.filter((x) => input[2].includes(x)); // intersection between 
 
 ## Day4
 function satisfy4_1 and satisfy4_2 are efficent, the part convert data with proper list(table) can be improved
+
+## Day5
+transform a stack (data in colon) into lists. Usage of shift, unshift (like pop and push, but start at the first element)
