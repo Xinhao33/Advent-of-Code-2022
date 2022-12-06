@@ -30,10 +30,11 @@ transform a stack (data in colon) into lists. Usage of shift, unshift (like pop 
 
 ## Day6
 
-a method to find out if there is a repeated element in a string:
-input is a string
+a method to find out if there is a repeat element in a string:
+
+{input is a string
 test = new Set(input);
-return test.size == input.length
+return test.size == input.length}
 
 comment:
-Set will remove repeated elements in a string
+Set will remove repeat elements in a string
