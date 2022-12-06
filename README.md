@@ -27,3 +27,13 @@ function satisfy4_1 and satisfy4_2 are efficent, the part convert data with prop
 
 ## Day5
 transform a stack (data in colon) into lists. Usage of shift, unshift (like pop and push, but start at the first element)
+
+## Day6
+
+a method to find out if there is a repeated element in a string:
+input is a string
+test = new Set(input);
+return test.size == input.length
+
+comment:
+Set will remove repeated elements in a string
