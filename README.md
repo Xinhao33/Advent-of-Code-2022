@@ -38,3 +38,12 @@ return test.size == input.length}
 
 comment:
 Set will remove repeat elements in a string
+
+## Day7
+
+Difficult
+
+step 1°) create minisystem to store the repositories and files in type depository and type file.
+
+step 2°) find the right sizes by recursion
+
