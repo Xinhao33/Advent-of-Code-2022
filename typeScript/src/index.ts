@@ -9,4 +9,4 @@ let y: point = { x: 1, y: 2 };
 y = p;
 
 y.x = 3;
-console.log(p.x);
+console.log("aaa".split(""));
