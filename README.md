@@ -47,3 +47,18 @@ step 1°) create minisystem to store the repositories and files in type deposito
 
 step 2°) find the right sizes by recursion
 
+## Day8
+relatively simple
+
+## Day 9
+it is more easy to consider every elementory movement (every time just consider to move one case)
+
+## Day 10
+first part I use a naive methode, put every situation of register after every cycle in a list, but it seems that it is useful for question 2.
+
+As for question 2, it is an interesting question. Think wisely about the fonction draw will be helpful
+
+## Day 11
+
+I use a lot of if condition in order to solve two question in one question, but it takes a long time to caculate the result. There must be a way to simplify the fonction Day11_1(). But I still think that consider every monkey as a type is a good start.
+
