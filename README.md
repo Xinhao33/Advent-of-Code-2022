@@ -62,3 +62,16 @@ As for question 2, it is an interesting question. Think wisely about the fonctio
 
 I use a lot of if condition in order to solve two question in one question, but it takes a long time to caculate the result. There must be a way to simplify the fonction Day11_1(). But I still think that consider every monkey as a type is a good start.
 
+## Day 12
+
+dijkstra hasn't finished yet
+
+## Day13
+
+Instead of contert data in string by input.map(string), I find a new way to convert data in it's proper form: JSON
+
+construction of a comparator in this question is interesting. usage of array.flat() and recursion
+
+for day13_2, sort based on comparator we have constructed
+
+
