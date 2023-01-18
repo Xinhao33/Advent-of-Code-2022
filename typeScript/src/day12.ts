@@ -119,6 +119,6 @@ const solution = () => {
   //console.log(`Result of part two for ${f} : ` + day11_1(input, 10000));
   //let end = performance.now();
   //console.log("use time: " + (end - start).toFixed(2));
-  //create_graph(convert_graph(input));
+  create_graph(convert_graph(input));
   console.log(graph);
 });
