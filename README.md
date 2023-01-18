@@ -70,6 +70,7 @@ I use a lot of if condition in order to solve two question in one question, but 
 
 ## Day 12
 
+<<<<<<< HEAD
 Difficult to solve. I'm net sure if it's a good way to create a matrix with numbers to replace the letters. Idea is after this, find the path with dijkstra.
 
 comment: it is useful when we work with ROS slam navigation, which is used to find the path between two points with obstacles apprears. The matrix created is as a matter of fact costmap. (find the path in the matrix which the sum of the number along the path is min)
@@ -81,3 +82,16 @@ I think this question is interesting. I create a comparator to "simplify" the qu
 ## Day 14
 
 I try it with GO with the help of the code of PEM (see the code in dossier go)
+=======
+dijkstra hasn't finished yet
+
+## Day13
+
+Instead of contert data in string by input.map(string), I find a new way to convert data in it's proper form: JSON
+
+construction of a comparator in this question is interesting. usage of array.flat() and recursion
+
+for day13_2, sort based on comparator we have constructed
+
+
+>>>>>>> 9928f8f928b3a068f86039ac6ba2a375d73f5ad1
